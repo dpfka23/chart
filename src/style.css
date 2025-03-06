@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.app{
+  width: 90%;
+  margin: 2rem auto;
+}
+.app > h1{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.app > .wrap{
+  display: flex;
+  gap: 1rem;
+}
+.app > .wrap > div{
+  height: 70vh;
+  flex: 1;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+  align-items: center;
+}
+.app > .wrap > div > h2{
+  margin: 2rem auto;
+}
+.main-analysis{}
+.student-analysis{}
+.date-analysis{}
